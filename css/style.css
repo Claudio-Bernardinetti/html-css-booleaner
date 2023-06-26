@@ -1,10 +1,7 @@
-.img1 {
-    size: 10rm;
-    
-    
+.img {
+    background-repeat: repeat;
 }
-
 .img2 {
     width: 10%;
-    height: auto;
+    height: 10%;
 }
