@@ -1,9 +1,8 @@
 body {
     margin: 0;
-    padding: 0;
-    height: auto;
-    width: auto;
+    padding: 0;      
 }
+
 header {
     background-image: url(../img/pattern.png);
     background-size: 200px;
@@ -11,15 +10,17 @@ header {
     background-color: rgb(0, 136, 255);
 }
 
-.img2 {
+.img-boolean {
     width: 150px;
     height: auto;
     margin-top: 1%;
     margin-left: 1%;
-}
+} 
+
 strong {
     color: aqua;
 }
+
 .highlighted {
     background-color: yellow;
 }
@@ -28,27 +29,38 @@ strong {
     background-color: rgb(0, 89, 255);
     color: white ;
 }
+
 .table2 {
     background-color: aqua;
 }
+
 .table4 {
     background-color: aqua;
 }
+
 table, td, th, tr {
     border-spacing: 0;
   }
+
+  h3 {
+    color: gray;
+  }
+
   .container-top {
     position: relative;
   }
+
   .text-top {
     position: absolute;
     top: 10%;
     left: 3%;
     color: white;
   }
+
   .container-bottom {
     position: relative;
   }
+  
   .text-bottom {
     position: absolute;
     top: 10%;
